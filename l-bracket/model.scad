@@ -1,5 +1,5 @@
 // ──────────────────────────────────────────────────────────────────────────
-// Parametric L-bracket 80x50x56 mm
+// Parametric L-bracket 100x60x56 mm
 //
 // minted by mojulo · recipe sk_bgtvvgbpr7 · kind scad
 //
@@ -9,14 +9,14 @@
 // ──────────────────────────────────────────────────────────────────────────
 
 // Parametric L-bracket. All dimensions are millimetres.
-// Coordinates: x = 80 mm width; y = 50 mm base depth; z = height.
-// Base occupies z=0..6. Flange occupies y=44..50 and z=6..56.
+// Coordinates: x = 100 mm width; y = 60 mm base depth; z = height.
+// Base occupies z=0..6. Flange occupies y=54..60 and z=6..56.
 // Circular sections are tessellated by OpenSCAD; nominal radii are below.
 
 $fn = 256;
 
-width = 80;
-depth = 50;
+width = 100;
+depth = 60;
 base_thickness = 6;
 flange_thickness = 6;
 flange_height = 50; // Above the top face of the base.

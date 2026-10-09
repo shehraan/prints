@@ -6,16 +6,16 @@ editable representation; `mojulo-recipe.json` preserves Mojulo's source recipe.
 
 ## Coordinate frame and dimensions
 
-The origin is the front-left bottom corner of the base. X spans the 80 mm
-width, Y runs front to rear over the 50 mm base depth, and Z points up.
+The origin is the front-left bottom corner of the base. X spans the 100 mm
+width, Y runs front to rear over the 60 mm base depth, and Z points up.
 
-- Base: X = 0–80, Y = 0–50, Z = 0–6.
-- Flange: X = 0–80, Y = 44–50, Z = 6–56. It rises 50 mm above the base top.
-- Overall bounds: 80 × 50 × 56 mm.
+- Base: X = 0–100, Y = 0–60, Z = 0–6.
+- Flange: X = 0–100, Y = 54–60, Z = 6–56. It rises 50 mm above the base top.
+- Overall bounds: 100 × 60 × 56 mm.
 - Four 4.5 mm base holes: axes along Z, centred at (X,Y) = (10,10),
-  (70,10), (10,40), and (70,40). The rear holes also clear the inside fillet.
-- Two 5.5 mm flange holes: axes along Y, centred at (X,Y,Z) = (20,47,31)
-  and (60,47,31). Their X separation is 40 mm; Z is 25 mm above the base top.
+  (90,10), (10,50), and (90,50). The rear holes also clear the inside fillet.
+- Two 5.5 mm flange holes: axes along Y, centred at (X,Y,Z) = (30,57,31)
+  and (70,57,31). Their X separation is 40 mm; Z is 25 mm above the base top.
 
 ## Edges and representation
 
